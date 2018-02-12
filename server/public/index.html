@@ -8,8 +8,22 @@ needed. -->
     <link rel="stylesheet" href="css/styles.css">
     <script src="vendors/jquery.js" charset="utf-8"></script>
     <script src="scripts/script.js" charset="utf-8"></script>
-    <title></title>
+    <title>Weekend Challange #2</title>
   </head>
-  <body>
-  </body>
+<body>
+  <h1>Basic calculator</h1>
+  <section id=calculator>
+      <p>First Number=<input class="myInputs" type="number" id="firstInput" /></p>
+      <div id="operationsButtons">
+      <button class = "operationsButtons" id="additionButton" value="add">+</button>
+      <button class = "operationsButtons" id="subtractionButton" value="subtract">-</button>
+      <button class = "operationsButtons" id="multiplicationButton" value="multiply">*</button>
+      <button class = "operationsButtons" id="divisionButton" value="divide">/</button>
+      </div>
+      <p>Second Number=<input class="myInputs" type="number" id="secondInput" /></p>
+      <button id="calculateButton">Calculate</button>
+      <button id="clearButton">Clear</button>
+      <p>History: <div id="results"></div></p>
+  </section>
+</body>
 </html>
